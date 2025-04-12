@@ -9,9 +9,13 @@ $Email = $_POST['Email'];          // Removed space
 $mobilenumber = $_POST['Mobilenumber']; // Removed space
 $Branch = $_POST['Branch'];       // Removed space
 $Section = $_POST['Section'];     // Removed space
+$server= "sql313.infinityfree.com"
+    $username = "if0_38735171"
+    $password = "zW5vTXsYhblBg"
+    $db = "if0_38735171_XXX "
 
 // Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'gdg'); // Replace with your DB credentials
+$conn = new mysqli($server,$username,$password,$db); // Replace with your DB credentials
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
