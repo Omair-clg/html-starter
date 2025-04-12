@@ -12,7 +12,7 @@ $Section = $_POST['Section'];     // Removed space
 $server= "sql313.infinityfree.com"
     $username = "if0_38735171"
     $password = "zW5vTXsYhblBg"
-    $db = "if0_38735171_XXX "
+    $db = "if0_38735171_gdg  "
 
 // Connect to the database
 $conn = new mysqli($server,$username,$password,$db); // Replace with your DB credentials
